@@ -17,7 +17,10 @@ def add_song(song)
 end
 
 
-def add_song_by_name
+def add_song_by_name(songname)
+  newsong = Song.new
+  songname = newsong.name
+  newsong.artist = self
 end
 
 def self.song_count
