@@ -12,7 +12,7 @@ def posts
 end
 
 def add_posts(post)
-  
+
 end
 
 def add_post_by_title
