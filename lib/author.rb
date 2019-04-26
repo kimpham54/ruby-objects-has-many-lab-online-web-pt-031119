@@ -1,11 +1,13 @@
 class Author
-attr_accessor :name
+attr_accessor :name, :posts
 
 
-def initialize
+def initialize(name)
+  @name = name
 end
 
 def posts
+  
 end
 
 def add_posts
