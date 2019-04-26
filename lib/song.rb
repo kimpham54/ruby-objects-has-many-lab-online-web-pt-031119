@@ -2,6 +2,7 @@ class Song
   attr_accessor :artist
   @@songs = []
 
-  self.songs()
+  def self.songs()
   @@songs
+end
 end
