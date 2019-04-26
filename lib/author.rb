@@ -7,7 +7,7 @@ def initialize(name)
 end
 
 def posts
-  
+
 end
 
 def add_posts
