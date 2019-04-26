@@ -19,6 +19,7 @@ end
 
 def add_song_by_name(songname)
   newsong = Song.new(songname)
+  @songs << newsong
   newsong.artist = self
 end
 
