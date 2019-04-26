@@ -13,7 +13,7 @@ def self.all
 end
 
 def author_name
-  if self.author.name != nil
+  if self.author.name != ""
     self.author.name
   else
     nil
